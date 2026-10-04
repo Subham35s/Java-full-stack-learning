@@ -1,0 +1,97 @@
+# ==============================
+# Java / Eclipse .gitignore
+# ==============================
+
+# Compiled Java files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Eclipse
+# ==============================
+
+.classpath
+.project
+.settings/
+.factorypath
+
+# Eclipse local workspace
+.metadata/
+.recommenders/
+
+# Eclipse history
+.history/
+
+# Mylyn
+.mylyn/
+
+# ==============================
+# Build folders
+# ==============================
+
+bin/
+target/
+build/
+out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+
+.idea/
+*.iml
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Maven
+# ==============================
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
